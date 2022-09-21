@@ -1,0 +1,9 @@
+<var>
+    <theme-name>Guzine</theme-name>
+    <theme-slug>guzine</theme-slug>
+    <wp-version>6.0</wp-version>
+    <php-version>7.4</php-version>
+    <minimum-image-size>699 x 389</minimum-image-size>
+    <recommended-image-size>1070 x 596</recommended-image-size>
+    <post-image-size>370 x 206</post-image-size>
+</var>
