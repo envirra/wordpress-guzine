@@ -86,8 +86,7 @@ You have now successfully installed and activated the plugins required for ${var
 
 # Importing Demo Content
 
-Using the WordPress Import tool, you can import demo content into your site from
-an xml file.
+Using the WordPress Import tool, you can import demo content into your site from an xml file. The `demo.xml` can be found in the downloaded file from ThemeForest (Please download the **All files and documentation**).
 
 #### Before importing
 
@@ -111,7 +110,7 @@ To import from a WordPress export file into your website. Follow these steps .
 
 5. After click on WordPress you will see a popup of **WordPress Importer**. You need to install **WordPress Importer** for uploading XML file. Now click on **Install Now** Button then activate your plugin.
 
-6. Now you can Upload the dummy content .xml file using the form provided on that page then click on **Upload file and Import** button.
+6. Now you can Upload the dummy content `demo.xml` file using the form provided on that page then click on **Upload file and Import** button.
 
 7. You will be asked to map the authors in this export file to users on the blog. For each author, you may choose to map to an existing user on the blog or to create a new user. You will then have the choice to import attachments, so click on the **Download and import file attachments** check-box and click on **Submit** button.
 
