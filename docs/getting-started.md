@@ -27,7 +27,7 @@ White screen, demo content fails when importing, empty page content and other si
 
 There are 3 ways to install the theme:
 
-### Theme Installation via Wordpress
+### Theme Installation via WordPress
 
 0. Login to your WordPress admin.
 1. In the `Appearance > Themes` menu, click the tab **"Install Themes"**
@@ -80,7 +80,7 @@ After you had activated the theme, you need to install the plugins required by t
 5. In case you encounter any problems, try installing theme one by one.
 6. After you have installed all the plugins, activate them by navigating to **Plugins** page, select the required plugins, choose activate from the dropdown option and click on **Apply** button.
 
-You have now successfully installed and activated the plugins required for ${var.theme-name} Wordpress Theme.
+You have now successfully installed and activated the plugins required for ${var.theme-name} WordPress Theme.
 
 ---
 
