@@ -19,7 +19,7 @@ To start making changes to the website, navigate to `Appearance > Editor`
 5. Click the button `Save` and go to your website to check the result.
 
 ```html
-<!-- wp:template-part {"slug":"home-main","theme":"guzine"} /-->
+<!-- wp:template-part {"slug":"home-main","theme":"${var.theme-slug}"} /-->
 ```
 
 ## Editing logo
