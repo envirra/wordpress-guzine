@@ -1,3 +1,5 @@
+[revision 2]: <> (Add AMP features)
+
 # Website configuration
 
 ${var.theme-name} supports full site editing, enabling you to modify many different elements of the website including changing the logo, updating the navigation menu, or developing your own post template.
@@ -111,3 +113,30 @@ Navigate the the **Gutenmate** menu in the admin area. This section contains the
 - **Post Views** - For configure an options of post view block.
 - **SEO Optimization** - For configure a generation of SEO. You can disable if you are currently use a third-party plugin.
 - **Icon Sets** - For configure an icon list that can be used in this site. Enables more icon sets will be slowdown the website.
+
+## Enabling AMP
+
+AMP is a powerful tool which applies many optimizations and best practices automatically on your site, making it easier for you to achieve good page experience for your visitors. Please follow the below instruction to enable the AMP page.
+
+1. Install and activate the [AMP plugin](https://wordpress.org/plugins/amp/).
+2. Navigate to `AMP > Settings` and set the **Template mode** option to **Transitional**.
+![](website-configuration/amp-template-mode.png)
+3. In the **Advanced Settings** section, Uncheck the option **Serve all templates as AMP** and only the **Singular** box should be checked.
+![](website-configuration/amp-templates.png)
+
+## Editing AMP templates
+
+Navigate to `Appearance > Editor > Template Parts`. All templates that begins with **AMP** is for displaying AMP page as the following
+
+- `AMP - Page` for displaying individual page.
+- `AMP - Single Post` for displaying individual post.
+
+In case you need to create a template for other pages such as home page or archive page. Click the `Add New` button and enter template name. All available template names as the following
+
+- `AMP - 404` for displaying the 404 page.
+- `AMP - Search` for displaying the search page.
+- `AMP - Front page` for displaying the front page.
+- `AMP - Archive` for displaying the archive page.
+- `AMP - Attachment` for displaying the attachment (media) page.
+
+After created the new AMP template, Navigate to `AMP > Settings` and recheck the supported templates in the **Advanced Settings** section.
