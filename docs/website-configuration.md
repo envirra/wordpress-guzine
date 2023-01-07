@@ -1,4 +1,4 @@
-[revision 2]: <> (Add AMP features)
+[revision 3]: <> (Add Ads feature)
 
 # Website configuration
 
@@ -105,14 +105,17 @@ In the full site editor, there is a sidebar template that you can edit or create
 
 ## Theme options
 
-Navigate the the **Gutenmate** menu in the admin area. This section contains the following options.
+Navigate to the **Gutenmate** menu in the admin area. This section contains the following options.
 
 - **Typography** - For configure a font family and font weights to be loaded.
 - **Image Sizes**  - For configure an image sizes used in this theme.
 - **Post Sharing** - For configure an options of post share block.
 - **Post Views** - For configure an options of post view block.
+- **Advertisement** - For configure an options of advertisement.
 - **SEO Optimization** - For configure a generation of SEO. You can disable if you are currently use a third-party plugin.
 - **Icon Sets** - For configure an icon list that can be used in this site. Enables more icon sets will be slowdown the website.
+- **Custom Scripts** - For adding a custom scripts
+- **Custom Styles** - For adding a custom styles (CSS)
 
 ## Enabling AMP
 
@@ -140,3 +143,11 @@ In case you need to create a template for other pages such as home page or archi
 - `AMP - Attachment` for displaying the attachment (media) page.
 
 After created the new AMP template, Navigate to `AMP > Settings` and recheck the supported templates in the **Advanced Settings** section.
+
+## Adding Ad Code
+
+To add an ad code for all slot in website without editing the template, Please navigate to the **Gutenmate** menu in the admin area and click the section **Advertisement**. The **Ad Code Preset** option can be found in this section.
+
+Just click the ad size you want to insert the code and paste into the textbox.
+
+Click the button `Save` and go to your website to check the result.
